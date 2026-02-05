@@ -1,8 +1,0 @@
-#!/Users/WONGZiF/Desktop/2026春季学期/COMP7940_Cloud_Computing/Assignment_2/comp_7940_lab_2/venv/bin/python
-# -*- coding: utf-8 -*-
-import re
-import sys
-from pip._internal.cli.main import main
-if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
-    sys.exit(main())
